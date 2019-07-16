@@ -12,19 +12,19 @@ import com.mastek.training.hrapp.entities.Employee;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ProjectApplicationTest {
-	
-	@Autowired
-	EmployeeService empService;
-	
-	@Autowired
-	Employee emp;
-	
-	@Test
-	public void exampleProjectTest() {
-		System.out.println("Project Test Case Scenarios");
-		emp.setName("Changed name");
-		emp.setSalary(345.0);
-		emp.setEmpno(88);
-		empService.registerOrUpdateEmployee(emp);
-	}
+//	
+//	@Autowired
+//	EmployeeService empService;
+//	
+//	@Autowired
+//	Employee emp;
+//	
+//	@Test
+//	public void exampleProjectTest() {
+//		System.out.println("Project Test Case Scenarios");
+//		emp.setName("Changed name");
+//		emp.setSalary(345.0);
+//		emp.setEmpno(88);
+//		empService.registerOrUpdateEmployee(emp);
+//	}
 }
